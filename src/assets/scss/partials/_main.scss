@@ -93,9 +93,12 @@ body {
 }
 
 .mainHeader {
-  background: #000;
-  padding: 10px 0;
-  box-shadow: 0px 2px 8px 1px rgba(0,0,0,0.7);
+  background: rgba(0,0,0,.9);
+  padding: 0px 0;
+  box-shadow: 0 2px 8px 1px rgba(0,0,0,0.7);
+  position: absolute;
+  width: 100%;
+  z-index: 999;
   .wrapper {
     display: flex;
     align-items: center;
@@ -116,20 +119,17 @@ body {
 .mainMenu {
   list-style: none;
   display: flex;
-  & > li + li {
-    margin-left: 15px;
-  }
   & > li {
     position: relative;
     & > a {
       color: #fff;
       text-decoration: none;
       display: block;
-      padding: 12px 24px;
+      padding: 18px 36px;
       transition: .2s;
       position: relative;
       &.isActive {
-        color: #ffa500;
+        color: $secondaryColor;
       }
 
       .fa {
@@ -143,8 +143,11 @@ body {
         opacity: 1;
       }
       &>a {
-        background: #fff;
-        color: #000;
+        background: rgba(0,0,0,.7);
+        color: $mainColor;
+        &.isActive {
+          color: $secondaryColor;
+        }
       }
     }
     &:last-child {
@@ -157,21 +160,18 @@ body {
   .innerMenu {
     position: absolute;
     list-style: none;
-    background: #000;
+    background: rgba(0,0,0,.7);
     width: 220px;
     max-height: 0;
     overflow: hidden;
     opacity: .5;
     left: 0;
     box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.5);
-    z-index: 10;
+    z-index: 1000;
     li {
       &:first-child {
         a {
           border-top: 1px solid #333;
-          &:hover {
-            border-top: 1px solid #fff;
-          }
         }
       }
       a {
@@ -180,16 +180,13 @@ body {
         border-bottom: 1px solid #333;
         display: block;
         padding: 12px 32px;
-        color: #b2b2b2;
+        color: #e6e6e6;
         font-size: 12px;
         text-decoration: none;
         transition: .1s;
         &:hover {
-          background: #fff;
+          background: rgba(0,0,0,.7);
           color: $mainColor;
-          border-left: 1px solid #fff;
-          border-right: 1px solid #fff;
-          border-bottom: 1px solid #fff;
         }
       }
     }
@@ -198,7 +195,7 @@ body {
 
 .mainCarousel {
   .item {
-    height: 560px;
+    min-height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -239,7 +236,7 @@ body {
       }
       p {
         opacity: .9;
-        font-size: 18px;
+        font-size: 36px;
         margin-bottom: 60px;
       }
     }
@@ -269,7 +266,7 @@ body {
 }
 
 .pageHolder {
-  padding: 40px 0;
+  padding: 120px 0;
 }
 
 .blockHeading {
@@ -279,7 +276,7 @@ body {
   position: relative;
   padding-bottom: 20px;
   font-weight: 300;
-  margin-bottom: 45px;
+  margin-bottom: 90px;
   &:before {
     content: "";
     display: block;
@@ -303,26 +300,51 @@ body {
   color: #343434;
   font-size: 26px;
   font-weight: 300;
-  margin-bottom: 30px;
+  margin-bottom: 45px;
   text-align: center;
+}
+
+.textHolder {
+  margin-bottom: 30px;
+  p {
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .btnHolder {
+    text-align: center;
+    padding: 15px 0 30px;
+  }
+}
+
+.centeredList {
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 300;
+  list-style: none;
+  li {
+    text-align: center;
+    margin-bottom: 10px;
+  }
 }
 
 .textListHolder {
   display: flex;
   margin: 0 -15px;
   .item {
-    width: 33.333%;
-    padding: 0 15px;
+    width: 50%;
+    padding: 0 30px;
     margin-bottom: 30px;
   }
   .listHeading {
     font-size: 24px;
     font-weight: 300;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
   .textList {
     padding-left: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 60px;
   }
   li {
     font-weight: 300;
@@ -349,6 +371,7 @@ body {
 
 .pageMainText {
   color: #666;
+
 }
 
 .pageDivider {
@@ -356,7 +379,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  padding: 45px 0;
+  padding: 90px 0;
   position: relative;
   &:after {
     content: "";
@@ -376,16 +399,44 @@ body {
     z-index: 2;
   }
   .caption {
-    font-size: 36px;
     color: #fff;
     font-weight: 300;
     margin-right: 30px;
+    .heading {
+      font-size: 36px;
+    }
+    .text {
+      font-size: 18px;
+    }
+  }
+  .formHolder {
+    .content {
+      display: flex;
+      align-items: center;
+    }
+    .form-control {
+      background: rgba(255,255,255,.4);
+      border-radius: 0;
+      border: 2px solid #fff;
+      //border-right: 0;
+      font-size: 18px;
+      padding: 11px;
+      height: auto;
+      color: #fff;
+      width: 320px;
+      margin-right: 15px;
+    }
   }
 }
 
 .coloredLine {
-  background: $mainColor;
+  background: linear-gradient(to right, rgba(121,150,159,1) 0%, rgba(234,250,253,1) 100%);
   color: #fff;
+  .textListHolder {
+    li {
+      margin-bottom: 10px;
+    }
+  }
 }
 
 .footer {
@@ -425,12 +476,118 @@ body {
   }
 }
 
+.gamesLogosHolder {
+  display: flex;
+  .logoHolder {
+    width: 33.333%;
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    &:nth-child(1) {
+      background-image: url("../public/img/ll.png");
+    }
+    &:nth-child(2) {
+      margin-top: 80px;
+      background-image: url("../public/img/csgo.png");
+    }
+    &:nth-child(3) {
+      background-image: url("../public/img/hs.png");
+    }
+  }
+}
 
+.tournamentsTablesHolder {
+  display: flex;
+  justify-content: center;
+  .content {
+    padding: 0 30px;
+    width: 50%;
+  }
+  .title {
+    text-align: center;
+    text-transform: uppercase;
+    color: $secondaryColor;
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+  .subTitle {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  table {
+    width: 100%;
+    td {
+      font-size: 14px;
+      color: #2d2d2d;
+      padding: 10px 20px;
+      border: 1px solid #e6e6e6;
+      background: #fcfcfc;
+    }
+    tr {
+      &:nth-child(odd) {
+        td {
+          background: #f6f6f6;
+        }
+      }
+      td:first-child {
+        border-left: 0;
+      }
+      td:last-child {
+        border-right: 0;
+      }
+    }
+  }
+}
 
+.featuresHolder {
+  .figuresList {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: -15px;
+    li {
+      width: 25%;
+      padding: 15px;
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+    .icoHolder {
+      color: $secondaryColor;
+      font-size: 48px;
+    }
+  }
+}
 
-
-
-
+.feedBackFormHolder {
+  .content {
+    width: 600px;
+    margin: auto;
+  }
+  label {
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .form-control {
+    border-radius: 0;
+    font-size: 18px;
+    resize: none;
+    padding: 12px;
+    height: auto;
+    border: 0;
+    background: rgba(0,0,0,.1);
+  }
+  .inputHolder {
+    margin-bottom: 20px;
+  }
+  .btnHolder {
+    text-align: right;
+  }
+}
 
 
 

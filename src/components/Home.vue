@@ -10,8 +10,8 @@
           <div class="content">
             <div class="mainContainer">
               <div class="caption">
-                <h1>Be in line with global trends in sports world.</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ipsa maxime nulla?</p>
+                <h1>KICKMYBET</h1>
+                <p>We provide a unique API with fully automated data feed for pre-match and live betting.</p>
                 <div class="btnHolder">
                   <a href="#" class="btnPrimary">Tell me more!</a>
                 </div>
@@ -23,8 +23,8 @@
           <div class="content">
             <div class="mainContainer">
               <div class="caption">
-                <h1>Be in line with global trends in sports world.</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ipsa maxime nulla?</p>
+                <h1>KICKMYBET</h1>
+                <p>Keep up to date with global eSports betting trends!</p>
                 <div class="btnHolder">
                   <a href="#" class="btnPrimary">Tell me more!</a>
                 </div>
@@ -43,98 +43,32 @@
     <div class="mainContainer">
       <div class="pageHolder">
         <div class="pageMainText">
-          <h2 class="blockHeading">Sports XML Feeds Services</h2>
-          <h3 class="subHeading">Pre-match betting odds</h3>
+          <h2 class="blockHeading">KICKMYBET</h2>
+          <h3 class="subHeading"></h3>
           <div class="textListHolder">
             <div class="item">
-              <h4 class="listHeading">Feeds Coverage</h4>
+              <h4 class="listHeading">Dota 2 Tournaments we cover</h4>
               <ul class="textList">
-                <li>Pre-live betting odds of +25 sports and +1800 leagues and tournaments.</li>
-                <li>Data of +70 bookmakers sources.</li>
-                <li>More than 1400 unique types of prematch betting odds.</li>
+                <li>We provide the most accurate data forecasts for all Majors.</li>
+                <li>We cover Minors.</li>
+                <li>Also we provide the coverage of qualifications Tournaments.</li>
               </ul>
-              <div class="linkHolder"><a href="#">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
+              <div class="btnHolder">
+                <a href="#" class="btnPrimary">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+              </div>
             </div>
             <div class="item">
-              <h4 class="listHeading">Query Options</h4>
+              <h4 class="listHeading">Technical features</h4>
               <ul class="textList">
-                <li>Support of wide range of input parameters, e.g. requests can be filtered by sports, leagues, pre-match betting markets, etc...</li>
-                <li>You can also query only changed portion of betting odds using time stamp input parameter.</li>
+                <li>Automated real time pre-match and live data feed.</li>
+                <li>Permanently updated game data for all leagues, teams and players.</li>
+                <li>Minimum delay in data provisioning.</li>
+                <li>Easily integrated API.</li>
+                <li>24/7 technical support and maintenance.</li>
               </ul>
-              <div class="linkHolder"><a href="#">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
-            </div>
-            <div class="item">
-              <h4 class="listHeading">Technical Features</h4>
-              <ul class="textList">
-                <li>Scalable solutions on highly available servers.</li>
-                <li>Multilanguage support.</li>
-                <li>Optimized and compressed format of XML and JSON data.</li>
-                <li>Constantly updated datasets of countries, legues, teams and types of betting markets.</li>
-                <li>24/7 support and maintenance.</li>
-              </ul>
-              <div class="linkHolder"><a href="#">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
-            </div>
-          </div>
-          <h3 class="subHeading">Original pre-match betting odds of leading bookmakers</h3>
-          <div class="textListHolder">
-            <div class="item">
-              <h4 class="listHeading">Feeds Coverage</h4>
-              <ul class="textList">
-                <li>Pre-live betting odds of +25 sports and +1800 leagues and tournaments.</li>
-                <li>Data of +70 bookmakers sources.</li>
-                <li>More than 1400 unique types of prematch betting odds.</li>
-              </ul>
-              <div class="linkHolder"><a href="#">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
-            </div>
-            <div class="item">
-              <h4 class="listHeading">Query Options</h4>
-              <ul class="textList">
-                <li>Support of wide range of input parameters, e.g. requests can be filtered by sports, leagues, pre-match betting markets, etc...</li>
-                <li>You can also query only changed portion of betting odds using time stamp input parameter.</li>
-              </ul>
-              <div class="linkHolder"><a href="#">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
-            </div>
-            <div class="item">
-              <h4 class="listHeading">Technical Features</h4>
-              <ul class="textList">
-                <li>Scalable solutions on highly available servers.</li>
-                <li>Multilanguage support.</li>
-                <li>Optimized and compressed format of XML and JSON data.</li>
-                <li>Constantly updated datasets of countries, legues, teams and types of betting markets.</li>
-                <li>24/7 support and maintenance.</li>
-              </ul>
-              <div class="linkHolder"><a href="#">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
-            </div>
-          </div>
-          <h3 class="subHeading">Original pre-match betting odds of leading bookmakers</h3>
-          <div class="textListHolder">
-            <div class="item">
-              <h4 class="listHeading">Feeds Coverage</h4>
-              <ul class="textList">
-                <li>Pre-live betting odds of +25 sports and +1800 leagues and tournaments.</li>
-                <li>Data of +70 bookmakers sources.</li>
-                <li>More than 1400 unique types of prematch betting odds.</li>
-              </ul>
-              <div class="linkHolder"><a href="#">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
-            </div>
-            <div class="item">
-              <h4 class="listHeading">Query Options</h4>
-              <ul class="textList">
-                <li>Support of wide range of input parameters, e.g. requests can be filtered by sports, leagues, pre-match betting markets, etc...</li>
-                <li>You can also query only changed portion of betting odds using time stamp input parameter.</li>
-              </ul>
-              <div class="linkHolder"><a href="#">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
-            </div>
-            <div class="item">
-              <h4 class="listHeading">Technical Features</h4>
-              <ul class="textList">
-                <li>Scalable solutions on highly available servers.</li>
-                <li>Multilanguage support.</li>
-                <li>Optimized and compressed format of XML and JSON data.</li>
-                <li>Constantly updated datasets of countries, legues, teams and types of betting markets.</li>
-                <li>24/7 support and maintenance.</li>
-              </ul>
-              <div class="linkHolder"><a href="#">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
+              <div class="btnHolder">
+                <a href="#" class="btnPrimary">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+              </div>
             </div>
           </div>
         </div>
@@ -143,9 +77,21 @@
     <div class="pageDivider">
       <div class="mainContainer">
         <div class="wrapper">
-          <div class="caption">Request 15-day trial version of our products sending us an email at sales[at]eoddsmaker.net</div>
-          <div class="btnHolder">
-            <a href="#" class="btnPrimary">Check it out!</a>
+          <div class="caption">
+            <div class="heading">Free monthly trial!</div>
+            <div class="text">Choose coverage and leave your email to get a month of free betting.</div>
+          </div>
+          <div class="formHolder">
+            <form action="">
+              <div class="content">
+                <div class="inputHolder">
+                  <input type="email" class="form-control" placeholder="Email...">
+                </div>
+                <div class="btnHolder">
+                  <button class="btnPrimary">Get the trial!</button>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>
@@ -153,68 +99,12 @@
     <div class="mainContainer">
       <div class="pageHolder">
         <div class="pageMainText">
-          <h2 class="blockHeading">Sports XML Feeds Services</h2>
-          <h3 class="subHeading">Original pre-match betting odds of leading bookmakers</h3>
-          <div class="textListHolder">
-            <div class="item">
-              <h4 class="listHeading">Feeds Coverage</h4>
-              <ul class="textList">
-                <li>Pre-live betting odds of +25 sports and +1800 leagues and tournaments.</li>
-                <li>Data of +70 bookmakers sources.</li>
-                <li>More than 1400 unique types of prematch betting odds.</li>
-              </ul>
-              <div class="linkHolder"><a href="#">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
-            </div>
-            <div class="item">
-              <h4 class="listHeading">Query Options</h4>
-              <ul class="textList">
-                <li>Support of wide range of input parameters, e.g. requests can be filtered by sports, leagues, pre-match betting markets, etc...</li>
-                <li>You can also query only changed portion of betting odds using time stamp input parameter.</li>
-              </ul>
-              <div class="linkHolder"><a href="#">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
-            </div>
-            <div class="item">
-              <h4 class="listHeading">Technical Features</h4>
-              <ul class="textList">
-                <li>Scalable solutions on highly available servers.</li>
-                <li>Multilanguage support.</li>
-                <li>Optimized and compressed format of XML and JSON data.</li>
-                <li>Constantly updated datasets of countries, legues, teams and types of betting markets.</li>
-                <li>24/7 support and maintenance.</li>
-              </ul>
-              <div class="linkHolder"><a href="#">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
-            </div>
-          </div>
-          <h3 class="subHeading">Original pre-match betting odds of leading bookmakers</h3>
-          <div class="textListHolder">
-            <div class="item">
-              <h4 class="listHeading">Feeds Coverage</h4>
-              <ul class="textList">
-                <li>Pre-live betting odds of +25 sports and +1800 leagues and tournaments.</li>
-                <li>Data of +70 bookmakers sources.</li>
-                <li>More than 1400 unique types of prematch betting odds.</li>
-              </ul>
-              <div class="linkHolder"><a href="#">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
-            </div>
-            <div class="item">
-              <h4 class="listHeading">Query Options</h4>
-              <ul class="textList">
-                <li>Support of wide range of input parameters, e.g. requests can be filtered by sports, leagues, pre-match betting markets, etc...</li>
-                <li>You can also query only changed portion of betting odds using time stamp input parameter.</li>
-              </ul>
-              <div class="linkHolder"><a href="#">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
-            </div>
-            <div class="item">
-              <h4 class="listHeading">Technical Features</h4>
-              <ul class="textList">
-                <li>Scalable solutions on highly available servers.</li>
-                <li>Multilanguage support.</li>
-                <li>Optimized and compressed format of XML and JSON data.</li>
-                <li>Constantly updated datasets of countries, legues, teams and types of betting markets.</li>
-                <li>24/7 support and maintenance.</li>
-              </ul>
-              <div class="linkHolder"><a href="#">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
-            </div>
+          <h2 class="blockHeading">COMING SOON</h2>
+          <h3 class="subHeading">real time betting markets for all popular eSports titles like: </h3>
+          <div class="gamesLogosHolder">
+            <div class="logoHolder"></div>
+            <div class="logoHolder"></div>
+            <div class="logoHolder"></div>
           </div>
         </div>
       </div>
@@ -224,18 +114,20 @@
         <div class="pageHolder">
           <h2 class="blockHeading re">Why Choose Us</h2>
           <div class="textListHolder">
-            <ul class="textList">
-              <li>Our sport feeds are highly available and reliable due to distributed solutions deployed on the latest multiprocessor servers.</li>
-              <li>We have very competitive prices, due to low costs generated by dedicated and small teams of software engineers as well as mathematicians.</li>
-              <li>We have flexible pricing model to meet your needs and capacity.</li>
-              <li>We have one of the widest coverage of the sport events and data in the market.</li>
-              <li>We are constantly working to improve the quality of our provided services based on our customers needs and feedback.</li>
-              <li>We support short contractual terms. No long-term obligations and contracts are required.</li>
-              <li>We are not the resellers, all data are monitored and compiled by us with use of our proprietary in-house solutions.</li>
-              <li>We have no limitations on the number of leagues/tournaments and types of betting markets in the packages.</li>
-              <li>During the integration phase, which may be up to 1 month, the services are provided free of charge.</li>
-              <li>Depending on the number of the products in the package we may apply significant discounts.</li>
-            </ul>
+            <ol class="textList">
+              <li>KICKMYBET provides high-quality analytical services for calculating pre-match and live cybersport events.</li>
+              <li>We develop our service to provide you specific game data coverage that allows you to get more balanced game markets.</li>
+              <li>Extend the scope of your services and business opportunities by offering our unique betting platform to your existing clients. </li>
+              <li>One of the widest coverage of the eSport events, data and bets options in the market.</li>
+              <li>Flexible pricing model. Get your personal offer that meets your needs and expectations.</li>
+              <li>Customers needs and feedback is our first priority. Quality and service improvement-oriented team.</li>
+              <li>Both short and long contractual terms are available. No limitations in obligations and contracts are required.</li>
+              <li>Free monthly trial on a chosen tournament.</li>
+              <li>All data are gathered and collected by our in-house solutions.</li>
+              <li>No limits in the number of leagues, tournaments, types of betting markets.</li>
+              <li>Significant discounts, depends on package type.</li>
+              <li>Our clients get the full package of services, including  personal account manager who will become a great addition to your team.</li>
+            </ol>
           </div>
         </div>
       </div>
@@ -245,12 +137,7 @@
 
 <script>
 export default {
-  name: 'Home',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  }
+  name: 'Home'
 }
 </script>
 
