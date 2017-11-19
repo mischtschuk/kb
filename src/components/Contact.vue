@@ -6,20 +6,20 @@
           <h2 class="blockHeading">Contact us</h2>
           <h3 class="subHeading">Complete a short form below to get notified on launch of live betting on eSports from KICKMYBET. We will send you a corresponding e-mail only.</h3>
           <div class="feedBackFormHolder">
-            <form action="">
+            <form @submit.prevent="sendMessage">
               <div class="wrapper">
                 <div class="content">
                   <div class="inputHolder">
                     <label for="">Your name:</label>
-                    <input type="text" class="form-control" placeholder="Name...">
+                    <input v-model="form.name" type="text" class="form-control" placeholder="Name...">
                   </div>
                   <div class="inputHolder">
                     <label for="">Your email:</label>
-                    <input type="email" class="form-control" placeholder="Email...">
+                    <input v-model="form.email" type="email" class="form-control" placeholder="Email...">
                   </div>
                   <div class="inputHolder">
                     <label for="">Your message:</label>
-                    <textarea rows="5" class="form-control" placeholder="Message..."></textarea>
+                    <textarea v-model="form.message" rows="5" class="form-control" placeholder="Message..."></textarea>
                   </div>
                   <div class="btnHolder">
                     <button class="btnPrimary">Send</button>
@@ -70,8 +70,54 @@
 </template>
 
 <script>
+  import axios from 'axios'
+
 export default {
-  name: 'About'
+    data() {
+        return {
+            form: {
+                name: null,
+                email: null,
+                message: null,
+            },
+            errors: {
+                name: null,
+                email: null,
+                message: null
+            }
+        }
+    },
+
+    methods: {
+        sendMessage() {
+            let data = new FormData();
+            data.append('name', this.form.name);
+            data.append('email', this.form.email);
+            data.append('message', this.form.message);
+            this.errors = [];
+            axios.post('/mail.php', data)
+                .then((response) => {
+                    if (response.data.error) {
+                        this.form.errors = response.data.errors;
+                    }
+                    if (response.data.success) {
+                        console.log(response.data.message);
+                        this.resetForm();
+                    }
+                })
+                .catch(e => {
+                    console.log(e);
+                })
+        },
+
+        resetForm() {
+            this.form = {
+                name: null,
+                email: null,
+                message: null,
+            }
+        }
+    }
 }
 </script>
 
