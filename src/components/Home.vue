@@ -79,7 +79,7 @@
         <div class="wrapper">
           <div class="caption">
             <div class="heading">Free monthly trial!</div>
-            <div class="text">Choose coverage and leave your email to get a month of free betting.</div>
+            <div class="text">Leave your email to get a month of free betting.</div>
           </div>
           <div class="formHolder">
             <form action="">
