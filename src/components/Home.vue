@@ -9,11 +9,13 @@
         <div class="item active">
           <div class="content">
             <div class="mainContainer">
-              <div class="caption">
-                <h1>KICKMYBET</h1>
-                <p>We provide a unique API with fully automated data feed for pre-match and live betting.</p>
-                <div class="btnHolder">
-                  <router-link class="btnPrimary" :to="{ name: 'Features'}">Tell me more!</router-link>
+              <div class="pageHolder">
+                <div class="caption">
+                  <h1>KICKMYBET</h1>
+                  <p>We provide a unique API with fully automated data feed for pre-match and live betting.</p>
+                  <div class="btnHolder">
+                    <router-link class="btnPrimary" :to="{ name: 'Features'}">Tell me more!</router-link>
+                  </div>
                 </div>
               </div>
             </div>
@@ -22,11 +24,13 @@
         <div class="item">
           <div class="content">
             <div class="mainContainer">
-              <div class="caption">
-                <h1>KICKMYBET</h1>
-                <p>Keep up to date with global eSports betting trends!</p>
-                <div class="btnHolder">
-                  <router-link class="btnPrimary" :to="{ name: 'Features'}">Tell me more!</router-link>
+              <div class="pageHolder">
+                <div class="caption">
+                  <h1>KICKMYBET</h1>
+                  <p>Keep up to date with global eSports betting trends!</p>
+                  <div class="btnHolder">
+                    <router-link class="btnPrimary" :to="{ name: 'Features'}">Tell me more!</router-link>
+                  </div>
                 </div>
               </div>
             </div>
