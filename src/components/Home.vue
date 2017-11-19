@@ -13,7 +13,7 @@
                 <h1>KICKMYBET</h1>
                 <p>We provide a unique API with fully automated data feed for pre-match and live betting.</p>
                 <div class="btnHolder">
-                  <a href="#" class="btnPrimary">Tell me more!</a>
+                  <router-link class="btnPrimary" :to="{ name: 'Features'}">Tell me more!</router-link>
                 </div>
               </div>
             </div>
@@ -26,7 +26,7 @@
                 <h1>KICKMYBET</h1>
                 <p>Keep up to date with global eSports betting trends!</p>
                 <div class="btnHolder">
-                  <a href="#" class="btnPrimary">Tell me more!</a>
+                  <router-link class="btnPrimary" :to="{ name: 'Features'}">Tell me more!</router-link>
                 </div>
               </div>
             </div>
@@ -54,7 +54,7 @@
                 <li>Also we provide the coverage of qualifications Tournaments.</li>
               </ul>
               <div class="btnHolder">
-                <a href="#" class="btnPrimary">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                <router-link class="btnPrimary" :to="{ name: 'Tournaments'}">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></router-link>
               </div>
             </div>
             <div class="item">
@@ -67,7 +67,7 @@
                 <li>24/7 technical support and maintenance.</li>
               </ul>
               <div class="btnHolder">
-                <a href="#" class="btnPrimary">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                <router-link class="btnPrimary" :to="{ name: 'Features'}">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></router-link>
               </div>
             </div>
           </div>
